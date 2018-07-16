@@ -9,7 +9,7 @@
 # from $RELEASE), $ARCH, and $MIRROR.
 
 # Grab a known good release of debootstrap
-debootstrap_version="1.0.101"
+debootstrap_version="1.0.89~bpo8+1"
 
 echo "Downloading debootstrap ${debootstrap_version}..." 1>&2
 if [ "${debootstrap_version}" = "HEAD" ]; then
